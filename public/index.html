@@ -27,6 +27,20 @@
     <title>TomBucks</title>
   </head>
   <body>
+    <form name="order" method="POST" data-netlify="true" hidden="true">
+      <input name="name" type="text" />
+      <select id="coffee" name="coffee">
+        <option selected disabled>Select your drink</option>
+        <option value="espresso">Espresso</option>
+        <option value="piccolo">Piccolo</option>
+        <option value="long black">Long Black</option>
+        <option value="flat white">Flat White</option>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="latte">Latte</option>
+        <option value="mocha">Mocha</option>
+        <option value="hot chocolate">Hot Chocolate</option>
+      </select>
+    </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
