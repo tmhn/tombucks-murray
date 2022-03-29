@@ -5,7 +5,7 @@ import img from './borough.jpeg'
 
 export default function App() {
   return (
-    <div className="flex flex-1 bg-brand-cyan">
+    <div className="bg-brand-cyan">
       <main className="flex flex-col justify-center">
         <section className="px-3 pt-8 md:pt-28 md:px-0">
           <div className="flex flex-col items-center mx-auto text-white md:mx-0">
