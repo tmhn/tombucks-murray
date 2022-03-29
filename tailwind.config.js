@@ -23,7 +23,11 @@ module.exports = {
         amber: colors.amber,
         yellow: colors.yellow,
         green: colors.emerald,
-        'brand-cyan': '#003A46'
+        'brand-cyan': '#003A46',
+        'brand-background': '#fffcf3',
+        'brand-red': '#b01c31',
+        'brand-black': '#323131',
+        'color-grey': '#e0ded6'
       }
     }
   },
