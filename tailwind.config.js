@@ -10,7 +10,7 @@ module.exports = {
     },
     fontFamily: {
       regular: ['Graphik Regular'],
-      medium: ['Graphik Regular'],
+      medium: ['Cereal Book'],
       semibold: ['Graphik Semibold'],
       bold: ['Graphik Bold'],
       serif: ['Berlingske Serif'],
