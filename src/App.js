@@ -1,8 +1,6 @@
 import React from 'react';
 import Form from "./form";
 
-import img from './borough.jpeg'
-
 export default function App() {
   return (
     <div className="bg-brand-cyan">
