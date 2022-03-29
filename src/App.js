@@ -16,7 +16,7 @@ export default function App() {
             <div className="max-w-md px-4 mx-auto sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
               <div>
                 <div className="mt-10 sm:mt-12">
-                  <form name="tombucks-order" method="POST" data-netlify="true" action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
+                  <form name="tombucks-order" method="POST" data-netlify="true" netlify className="sm:max-w-xl sm:mx-auto lg:mx-0">
                     <div>
                       <div className="flex-1 min-w-0">
                         <label htmlFor="email" className="sr-only">
