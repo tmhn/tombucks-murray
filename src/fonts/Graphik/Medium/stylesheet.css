@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url('Graphik-Medium.eot');
+    src: url('Graphik-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Graphik-Medium.woff2') format('woff2'),
+        url('Graphik-Medium.woff') format('woff'),
+        url('Graphik-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
