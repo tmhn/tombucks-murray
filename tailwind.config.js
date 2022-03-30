@@ -27,7 +27,8 @@ module.exports = {
         'brand-background': '#fffcf3',
         'brand-red': '#b01c31',
         'brand-black': '#323131',
-        'color-grey': '#e0ded6'
+        'color-grey': '#e0ded6',
+        'brand-grey': '#989898'
       }
     }
   },

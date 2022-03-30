@@ -14,12 +14,12 @@ const Form = () => (
                     name="name"
                     type="text"
                     placeholder="Enter your name"
-                    className="block w-full px-4 py-3 text-medium text-gray-900 placeholder-gray-500 border border-solid border-color-grey rounded-md"
+                    className="block w-full px-4 py-3 text-medium text-gray-900 placeholder-gray-500 border-2 border-solid border-color-grey rounded-md"
                 />
                 <fieldset className="w-full mt-3">
                     <label htmlFor="coffee" className="sr-only">Language</label>
                     <div className="relative">
-                        <select id="coffee" name="coffee" className="border border-solid border-color-grey px-4 py-3 appearance-none block w-full bg-none bg-white rounded-md pl-3 pr-10 text-medium text-gray-500 sm:text-sm">
+                        <select id="coffee" name="coffee" className="border-2 border-solid border-color-grey px-4 py-3 appearance-none block w-full bg-none bg-white rounded-md pl-3 pr-10 text-medium text-gray-500 sm:text-sm">
                           <option selected disabled className="placeholder-gray-500">Select your drink</option>
                           <option>Espresso</option>
                           <option>Cortado</option>
@@ -45,7 +45,7 @@ const Form = () => (
                     name="extras"
                     type="text"
                     placeholder="Anything else?"
-                    className="mt-3 block w-full px-4 py-3 text-medium text-gray-900 placeholder-gray-500 border border-solid border-color-grey rounded-md"
+                    className="mt-3 block w-full px-4 py-3 text-medium text-gray-900 placeholder-gray-500 border-2 border-solid border-color-grey rounded-md"
                 />
             </div>
             <div className="mt-12">
@@ -60,7 +60,7 @@ const Form = () => (
                 </button>
             </div>
         </div>
-        <p className="mt-4 mb-10 text-sm text-gray-300 sm:mt-4">
+        <p className="mt-4 mb-10 text-sm text-brand-grey sm:mt-4">
             TomBucks can sometimes be really busy, we'll deliver your drink as fast as Tom's little legs will carry him.
         </p>
     </form>

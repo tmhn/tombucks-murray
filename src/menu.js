@@ -10,7 +10,7 @@ import MochaIcon from "./icons/mocha";
 import HotChocolateIcon from "./icons/hotChocolate";
 
 const Menu = () => (
-  <div class="mt-2 mb-10 grid grid-cols-2 gap-8">
+  <div className="mt-2 md:mt-10 mb-10 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-10">
     <div className="flex flex-col items-center justify-center">
       <EspressoIcon className="fill-brand-red mb-2" />
       <span className="font-medium text-brand-red flex text-center">Espresso</span>

@@ -1,8 +1,9 @@
 import React from 'react';
 import { ArrowSmDownIcon } from '@heroicons/react/solid';
 
-import Form from "./form";
+import Intro from "./intro";
 import Menu from "./menu";
+import Form from "./form";
 
 import img from "./coffee-cup.jpeg"
 
@@ -21,6 +22,7 @@ export default function App() {
             </div>
         
             <span className="pt-10 text-2xl md:text-4xl font-serifblack text-brand-red">Intro</span>
+            <Intro />
             <span className="pt-10 text-2xl md:text-4xl font-serifblack text-brand-red">Menu</span>
             <Menu />
             <span className="pt-10 text-2xl md:text-4xl font-serifblack text-brand-red">Order</span>
